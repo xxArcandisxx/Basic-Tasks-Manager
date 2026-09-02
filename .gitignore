@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info
+*.egg
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pdm-build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local app data / generated files
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Front-end generated files
+static/*.css
+static/*.css.map
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
